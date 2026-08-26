@@ -1,0 +1,14 @@
+node_modules/
+dist/
+build/
+*.log
+.env
+!.env.example
+server/data/*.db
+server/data/*.db-journal
+server/data/*.db-wal
+server/data/*.db-shm
+*.tsbuildinfo
+client/vite.config.js
+client/vite.config.d.ts
+.DS_Store
